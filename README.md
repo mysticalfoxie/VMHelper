@@ -18,8 +18,12 @@ Then this program will help you out!
 
 # How to use?
 Well the program is built in a really intuitive way but I'll work that through here.
+
 *On the left* there is the section where you can *add or remove the processes* that you want to include.
+
 *On the right* ... wow... what was it... I guess you start the code 🤔😍
+
+### ⚠ You need to exectute this with **Administrator** Privileges!! ⚠
 
 # Some other stuff
 ### You're having any sort of problems with the application?
@@ -30,6 +34,9 @@ Thanks to GitHub you can easily write Issues at the a special section for that. 
 Then you can easily download it [here](https://download.visualstudio.microsoft.com/download/pr/8bc41df1-cbb4-4da6-944f-6652378e9196/1014aacedc80bbcc030dabb168d2532f/windowsdesktop-runtime-5.0.9-win-x64.exe) at the official page.
 An no! This is not just some garbage on you computer! 😄 This is a widly used dependency in many programs! 😘
 
+### Why does this program require admin privileges?
+The process audiodg.exe that is causing your problem is a system process so we need your admin rights to increase the priority of such an important process! Weird huh? 😄
+
 ### You're not sure if this is unsafe? 
 GitHub is a platform for OpenSource code and this .exe and .dll file are just the result from my code. I just wanted to make this as easy as possible for you. 🥰 If I would only publish my code you would need to build this project to an executable file and I think you don't want to do that. 😏
 
@@ -38,6 +45,7 @@ Well if that's so ... Write me you're feedback in the Issues ❤ I wont be mad! 
 
 ### Recommended Programs to include
 By just adding audiodg you have the main bottleneck fixed, **but** there are still a few processes that could work *clearer*.
+
 When I use the code for my personal usage I always include:
 * audiodg.exe
 * Discord.exe
