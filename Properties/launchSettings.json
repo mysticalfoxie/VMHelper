@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "AudioProcessHelper": {
-      "commandName": "Project",
-      "commandLineArgs": "-go"
-    }
-  }
-}
