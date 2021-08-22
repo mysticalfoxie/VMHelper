@@ -252,8 +252,9 @@ namespace AudioProcessHelper.UI
             this.ClientSize = new System.Drawing.Size(654, 336);
             this.Controls.Add(this.windowSplitter);
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.Text = "Fix My Microphone";
+            this.Text = "Audio Process Helper";
             this.windowSplitter.Panel1.ResumeLayout(false);
             this.windowSplitter.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.windowSplitter)).EndInit();

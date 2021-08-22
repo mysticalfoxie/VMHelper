@@ -6,6 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>AudioProcessHelper</RootNamespace>
     <AssemblyName>AudioProcessHelper</AssemblyName>
+    <ApplicationIcon>appicon.ico</ApplicationIcon>
+    <StartupObject>AudioProcessHelper.Program</StartupObject>
+    <Win32Resource />
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="app.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="lastSession.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
