@@ -23,8 +23,6 @@ Well the program is built in a really intuitive way but I'll work that through h
 
 *On the right* ... wow... what was it... I guess you start the code 🤔😍
 
-### ⚠ You need to exectute this with **Administrator** Privileges!! ⚠
-
 # Some other stuff
 ### You're having any sort of problems with the application?
 
@@ -32,7 +30,10 @@ Thanks to GitHub you can easily write Issues at the a special section for that. 
 
 ### When you execute the program it says that you're missing the .net runtime?
 Then you can easily download it [here](https://download.visualstudio.microsoft.com/download/pr/8bc41df1-cbb4-4da6-944f-6652378e9196/1014aacedc80bbcc030dabb168d2532f/windowsdesktop-runtime-5.0.9-win-x64.exe) at the official page.
+
 An no! This is not just some garbage on you computer! 😄 This is a widly used dependency in many programs! 😘
+
+You can also try to download the non-minified version in the Releases because there are many packages that you may not have installed. 
 
 ### Why does this program require admin privileges?
 The process audiodg.exe that is causing your problem is a system process so we need your admin rights to increase the priority of such an important process! Weird huh? 😄
