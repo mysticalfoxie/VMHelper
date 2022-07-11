@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>AudioProcessHelper</RootNamespace>
     <AssemblyName>AudioProcessHelper</AssemblyName>
@@ -10,16 +10,13 @@
     <StartupObject>AudioProcessHelper.Program</StartupObject>
     <Win32Resource />
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>AudioProcessHelper_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
-    <DelaySign>true</DelaySign>
     <Authors>M1chelle99</Authors>
     <Company>MichelleBecker2003@gmail.com</Company>
     <Copyright>©Michelle Becker</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 

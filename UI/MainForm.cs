@@ -44,7 +44,12 @@ namespace AudioProcessHelper.UI
 
         private void OnInputFocus(object sender, EventArgs e)
         {
-            var processes = Process.GetProcesses().Select(x => x.ProcessName).ToArray();
+            var processes = Process
+                .GetProcesses()
+                .Select(x => x.ProcessName)
+                .Distinct()
+                .ToArray();
+
             _processNameInput.AutoCompleteCustomSource.Clear();
             _processNameInput.AutoCompleteCustomSource.AddRange(processes);
         }
@@ -82,9 +87,9 @@ namespace AudioProcessHelper.UI
                 var processes = ProcessService.GetProcesses(names);
                 ProcessService.IncreasePriority(processes);
                 ProcessService.SetAffinity(processes);
-                var result = MessageBox.Show($"Perfect! Everything done!\nShould I leave now? 😁\n\nOk: Stay! Please!\nCancel: We're done here!", "Done!", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-                if (result == DialogResult.Cancel)
-                    LeaveTheRoomCrying();
+                var result = MessageBox.Show($"Perfect! Everything done!\n\nDo you want to close the Application now?", "Done!", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                    Application.Exit();
             });
 
             Enable();
@@ -100,15 +105,6 @@ namespace AudioProcessHelper.UI
             {
                 MessageBox.Show($"An error occured when trying change your processes.\n\n{ex}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void LeaveTheRoomCrying()
-        {
-            _description.Text = "😭";
-            _description.TextAlign = ContentAlignment.MiddleCenter;
-            _description.Font = new Font("Segoe UI", 100, FontStyle.Regular, GraphicsUnit.Pixel);
-            Task.Delay(2000).Wait();
-            Application.Exit();
         }
 
         private void Disable()

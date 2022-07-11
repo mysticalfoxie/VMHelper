@@ -1,8 +1,7 @@
-﻿namespace AudioProcessHelper.Models
+﻿namespace AudioProcessHelper.Models;
+
+internal class ProcessEntry
 {
-    class ProcessEntry
-    {
-        public string Name { get; set; }
-        public bool Checked { get; set; }
-    }
+    public string Name { get; set; }
+    public bool Checked { get; set; }
 }

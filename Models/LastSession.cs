@@ -1,8 +1,6 @@
-﻿using AudioProcessHelper.Models;
-namespace AudioProcessHelper.Models
+﻿namespace AudioProcessHelper.Models;
+
+internal class LastSession
 {
-    class LastSession
-    {
-        public ProcessEntry[] Processes { get; set; }
-    }
+    public ProcessEntry[] Processes { get; set; }
 }
