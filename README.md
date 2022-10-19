@@ -41,6 +41,9 @@ The process audiodg.exe that is causing your problem is a system process so we n
 ### You're not sure if this is unsafe? 
 GitHub is a platform for OpenSource code and this .exe and .dll file are just the result from my code. I just wanted to make this as easy as possible for you. 🥰 If I would only publish my code you would need to build this project to an executable file and I think you don't want to do that. 😏
 
+### You want to put the Program into your Auto Start?
+I wrote a little Guide in the Issue #1. You can watch it [there](https://github.com/M1chelle99/AudioProcessHelper/issues/1).
+
 ### You're a developer and you don't like my code?
 Well if that's so ... Write me you're feedback in the Issues ❤ I wont be mad! I love improving! 💖
 
