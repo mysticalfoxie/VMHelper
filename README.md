@@ -26,7 +26,7 @@ Well the program is built in a really intuitive way but I'll work that through h
 
 *On the right* ... wow... what was it... I guess you start the code 🤔😍
 
-# Some other stuff
+# FAQ
 ### You're having any sort of problems with the application?
 
 Thanks to GitHub you can easily write Issues at the a special section for that. Just click on `Issues` at the top of the page! (Thank you Github ❤) 
