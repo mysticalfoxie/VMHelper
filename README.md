@@ -1,7 +1,11 @@
-# AudioProcessHelper
-Handles the Priority and Processor Affinity of your selected Audio Programs 
+# VMHelper
+This program helps you with a common issue of `VoiceMeeter`.
+It fixes crackling sound output, which is related to insufficient process priority.
 
-If your friends on Discord/Teamspeak or whatever tell you that your sound is cracking and it's very hard to understand you, you probably have the same issue as me. 💞
+This Program increases and configures the `priority` and `processor affinity` of your selected Audio Programs, which is most likely `VoiceMeeter`, so it stops causing cracking sounds. 
+
+If your friends on Discord/Teamspeak or whatever tell you that your sound is cracking and it's very hard to understand you, you probably have the same problem as I had. 💞 
+That's why I wrote that little tool. 
 
 *You're using Audio Programs such as VoiceMeeter, too?*
 *Your friends are telling you that your audio is cracking?*
@@ -9,7 +13,6 @@ If your friends on Discord/Teamspeak or whatever tell you that your sound is cra
 Then this program will help you out!
 
 ###### The fix is based on all actions that the someone did in a [YouTube video](https://youtu.be/71HrZfR_Fro).
-
 
 # How to install?
 * Just click on the _Releases_ on your right and **download** the first package.
@@ -47,8 +50,12 @@ I wrote a little Guide in the Issue #1. You can watch it [there](https://github.
 ### You're a developer and you don't like my code?
 Well if that's so ... Write me you're feedback in the Issues ❤ I wont be mad! I love improving! 💖
 
+### You're a developer and want to contribute?
+If you want to commit some work into this project you are welcome to do so! 💖
+I will most likely approve your pull-request if I see use of it.
+
 ### Recommended Programs to include
-By just adding audiodg you have the main bottleneck fixed, **but** there are still a few processes that could work *clearer*.
+By just adding `audiodg` you have the main bottleneck fixed, **but** there are still a few processes that could work *clearer*.
 
 When I use the code for my personal usage I always include:
 * audiodg.exe
@@ -59,3 +66,5 @@ When I use the code for my personal usage I always include:
 So choose wisely 😘
 
 # Thank you for using my code ❤ 
+
+*If that project helped you, feel free to add a little ⭐ to this repository, so other users find it easier* 
